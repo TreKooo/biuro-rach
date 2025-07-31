@@ -1,0 +1,90 @@
+.home {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.home-hero {
+  background: #f7f5ee;
+  padding: 6rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 40px rgba(191, 161, 91, 0.1);
+  margin-bottom: 4rem;
+}
+
+.home-hero h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #3e3a31;
+}
+
+.home-hero p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #5e5a4a;
+}
+
+.home-hero .btn-primary {
+  background-color: #bfa15b;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.home-hero .btn-primary:hover {
+  background-color: #a88c4c;
+}
+
+.home-intro {
+  margin-bottom: 4rem;
+}
+
+.home-intro h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #3e3a31;
+}
+
+.home-intro p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #5e5a4a;
+}
+
+.home-values {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.value-card {
+  background: #fff;
+  border: 1px solid #eae7d8;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 6px 20px rgba(191, 161, 91, 0.1);
+}
+
+.value-card h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: #3e3a31;
+}
+
+.value-card p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #5e5a4a;
+  line-height: 1.5;
+}

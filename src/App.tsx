@@ -9,10 +9,11 @@ import Offer from "./pages/Offer";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import "./App.css";
+import Home from "./pages/Home";
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename="/biuro-rach">
       <div className="app">
         <header className="header">
           <h1>Biuro Rachunkowe LuxTax</h1>
@@ -48,13 +49,13 @@ const App: React.FC = () => {
 
         <main className="main">
           <Routes>
-            <Route path="/" element={<Offer />} />
+            <Route path="/" element={<Home />} />
             <Route path="/offer" element={<Offer />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
-        <h1>Miłego oglądania</h1>
+
         <footer className="footer">
           <p>© 2025 Biuro Rachunkowe LuxTax. Wszelkie prawa zastrzeżone.</p>
         </footer>

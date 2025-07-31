@@ -36,14 +36,6 @@ const Offer: React.FC = () => {
             ekspertem.
           </p>
         </div>
-
-        <div className="service-card">
-          <h3>Start-up i doradztwo</h3>
-          <p>
-            Pomoc przy zakładaniu działalności, wyborze formy opodatkowania i
-            wsparcie na starcie.
-          </p>
-        </div>
       </div>
 
       <div className="offer-cta">
