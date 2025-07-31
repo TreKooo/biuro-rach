@@ -1,0 +1,88 @@
+.offer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.offer-hero h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #3e3a31;
+}
+
+.offer-hero p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  color: #5e5a4a;
+  max-width: 600px;
+  margin: 0 auto 4rem;
+}
+
+.offer-services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.service-card {
+  background: #f7f5ee;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(191, 161, 91, 0.15);
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.service-card:hover {
+  box-shadow: 0 10px 30px rgba(191, 161, 91, 0.3);
+  transform: translateY(-4px);
+}
+
+.service-card h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #3e3a31;
+}
+
+.service-card p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #5e5a4a;
+  line-height: 1.5;
+}
+
+.offer-cta {
+  margin-top: 5rem;
+}
+
+.offer-cta h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #3e3a31;
+}
+
+.offer-cta p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  color: #5e5a4a;
+  margin-bottom: 2rem;
+}
+
+.btn-primary {
+  background-color: #bfa15b;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #a88c4c;
+}

@@ -20,9 +20,8 @@ const App: React.FC = () => {
             <ul className="nav-list">
               <li>
                 <NavLink
-                  to="/"
+                  to="/offer"
                   className={({ isActive }) => (isActive ? "active" : "")}
-                  end
                 >
                   Oferta
                 </NavLink>
@@ -50,6 +49,7 @@ const App: React.FC = () => {
         <main className="main">
           <Routes>
             <Route path="/" element={<Offer />} />
+            <Route path="/offer" element={<Offer />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
