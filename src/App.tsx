@@ -54,7 +54,7 @@ const App: React.FC = () => {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
-
+ <Offer></Offer>
         <footer className="footer">
           <p>© 2025 Biuro Rachunkowe LuxTax. Wszelkie prawa zastrzeżone.</p>
         </footer>
